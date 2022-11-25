@@ -49,9 +49,9 @@ class _ResultScreenState extends State<ResultScreen> {
                 boxShadow: [
                   BoxShadow(
                     color: Color(0xffa2bdb6),
-                    spreadRadius: 2,
-                    blurRadius: 5,
-                    offset: Offset(0, 0),
+                    // spreadRadius: 2,
+                    // blurRadius: 5,
+                    // offset: Offset(0, 0),
                   ),
                 ],
               ),
@@ -66,9 +66,9 @@ class _ResultScreenState extends State<ResultScreen> {
                       boxShadow: [
                         BoxShadow(
                           color: Color(0xffa2bdb6),
-                          spreadRadius: 2,
-                          blurRadius: 2,
-                          offset: Offset(0, 0),
+                          // spreadRadius: 2,
+                          // blurRadius: 2,
+                          // offset: Offset(0, 0),
                         ),
                       ],
                     ),
@@ -95,7 +95,7 @@ class _ResultScreenState extends State<ResultScreen> {
                           style: textStylemain,
                         ),
                         Text(
-                          widget.des,
+                          "Description :      ${widget.des}",
                           style: textStylemain,
                         ),
                       ],
