@@ -419,3 +419,4 @@ class _BmiHomePageState extends State<BmiHomePage> {
                 bmi.calculatorResult(), bmi.msg, bmi.descriptionView())));
   }
 }
+/**/
